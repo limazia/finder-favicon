@@ -19,7 +19,7 @@ export function Home() {
               src={
                 favicon
                   ? `https://www.google.com/s2/favicons?domain=${favicon}`
-                  : "https://www.google.com/s2/favicons?domain=google.com"
+                  : "https://www.google.com/s2/favicons?domain=github.com"
               }
               alt=""
               className="rounded-md"
@@ -29,6 +29,7 @@ export function Home() {
             <input
               type="text"
               className="border border-gray-500 rounded-md inline-block p-3 w-full text-gray-600 tracking-widest"
+              placeholder="johndoe.com"
               value={favicon}
               onChange={handleChange}
             />
